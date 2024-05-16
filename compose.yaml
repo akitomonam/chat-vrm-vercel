@@ -1,0 +1,12 @@
+services:
+  web-app:
+    build:
+      context: .
+    container_name: chatVRM
+    ports:
+      - 8080:8080
+      - 3000:3000
+    tty: true # コンテナの起動永続化
+    volumes:
+      - .:/workspace
+    command: sh -c "npm install && npm run dev"

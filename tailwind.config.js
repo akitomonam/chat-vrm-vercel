@@ -17,15 +17,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#856292",
-        "primary-hover": "#8E76A1",
-        "primary-press": "#988BB0",
-        "primary-disabled": "#6F48694D",
-        secondary: "#FF617F",
-        "secondary-hover": "#FF849B",
-        "secondary-press": "#FF9EB1",
-        "secondary-disabled": "#FF617F4D",
-        base: "#FBE2CA",
+        primary: "#364796",
+        "primary-hover": "#3e51a8",
+        "primary-press": "#26336b",
+        "primary-disabled": "#26336b67",
+        secondary: "#364796",
+        "secondary-hover": "#3e51a8",
+        "secondary-press": "#26336b",
+        "secondary-disabled": "#26336b67",
+        base: "#077916ff",
         "text-primary": "#514062",
       },
       fontFamily: {
